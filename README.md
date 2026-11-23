@@ -1,2 +1,4 @@
-# sec-forensic-screener-pro
-Screen any US public company for bankruptcy risk and accounting red flags in seconds. Pulls live SEC EDGAR 10-K XBRL filings (zero API keys) to compute Altman Z-Score, Piotroski F-Score (0–9), and Beneish M-Score, with multi-sheet Excel and credit memo exports.
+﻿# SEC 10-K Financial Red-Flag, Altman Z-Score, Piotroski F-Score & Beneish M-Score Screener
+Institutional fundamental & forensic accounting screener powered by live US SEC EDGAR XBRL (`data.sec.gov`) filings.
+1. Install dependencies: `pip install -r requirements.txt`
+2. Launch dashboard: `streamlit run app.py`
